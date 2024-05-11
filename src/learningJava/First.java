@@ -17,9 +17,9 @@ public class First {
 		float flotnum = 15.5f;
 		double doublenum = 20.2d;
 		
-		String name = "Srikant";
-		
-		char character = 'A';
+//		String name = "Srikant";
+//		
+//		char character = 'A';
 		
 	}
 
