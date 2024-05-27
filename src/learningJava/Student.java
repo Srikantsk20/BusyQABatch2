@@ -11,10 +11,19 @@ public class Student {
 	 course = s_course; // course = "Computer science"
  }
  
+String nameofStudent() {
+	 return name;
+ }
+ 
+ 
  void display() {
 	 System.out.println("name: "+ name);
 	 System.out.println("id : "+ id);
 	 System.out.println("Course : "+ course);
+	 
  }
+ 
+ 
+ 
 }
 

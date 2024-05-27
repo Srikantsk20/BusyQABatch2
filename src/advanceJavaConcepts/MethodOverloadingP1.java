@@ -3,11 +3,11 @@ package advanceJavaConcepts;
 public class MethodOverloadingP1 {
 	// Method to add two integers
 	
-    int add(int x, int y) {
-        return x + y;
-    }
-
-    // Method to add three integers
+    int add(int x, int y) {  //x=5 and y=3
+        return x + y; //return 5+3 == 8
+        }
+       
+     // Method to add three integers
     int add(int x, int y, int z) {
         return x + y + z;
     }
