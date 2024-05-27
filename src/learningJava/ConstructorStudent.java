@@ -5,11 +5,11 @@ public class ConstructorStudent {
 	 String name;
 	 String course;
 	 
-	 ConstructorStudent(int s_id, String s_name, String s_course) {
+ConstructorStudent(int s_id, String s_name, String s_course) {
 		 id = s_id;
 		 name = s_name;
 		 course = s_course;
-	 }
+}
 	 
 	 boolean idChecker() {
 		 if (id > 1) {

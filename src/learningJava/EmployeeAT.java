@@ -6,6 +6,8 @@ public class EmployeeAT {
 	double salary;
 	String jobtitle;
 	
+	//EmployeeAT() {}
+	
 	void display() {
 		System.out.println(eid);
 		System.out.println(name);

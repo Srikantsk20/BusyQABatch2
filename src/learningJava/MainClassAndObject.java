@@ -8,7 +8,7 @@ public class MainClassAndObject {
 		// TODO Auto-generated method stub
 		MainClassAndObject student1 = new MainClassAndObject();
 		System.out.println("value of id "+ student1.id);
-		System.out.println("value of id "+ student1.name);
+		System.out.println("value of name "+ student1.name);
 	}
 
 }

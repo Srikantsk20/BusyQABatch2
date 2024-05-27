@@ -12,7 +12,7 @@ public class StaticKeywordP2 {
 	void assignVal(int emp, String Name) {
 		empno = emp;
 		ename = Name;
-		deptno++;
+		//deptno++;
 	}
 	
 	void displayVal() {

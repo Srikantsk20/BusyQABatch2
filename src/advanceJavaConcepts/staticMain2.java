@@ -12,16 +12,16 @@ public class staticMain2 {
 		StaticKeywordP2 emp2 = new StaticKeywordP2();
 		emp2.assignVal(2, "Kajal");
 		
-//		emp1.displayVal();
+		//	emp1.displayVal();
 		emp2.displayVal();
 		
 		StaticKeywordP2.deptno=5;
 		System.out.println("--------------Value after changing the depNum-------------------------");
-		//uncomment the below for showing static variable update
+//		//uncomment the below for showing static variable update
 		emp1.displayVal();
 		emp2.displayVal();
-		
-		
+//		
+//		
 		StaticKeywordP2.increment();
 		System.out.println("--------------Value after changing the depNum-------------------------");
 		//uncomment the below for showing static variable update
