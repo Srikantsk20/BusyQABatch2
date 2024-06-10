@@ -12,7 +12,8 @@ public class HashSetExample {
         hashSet.add("Apple");
         hashSet.add("Banana");
         hashSet.add("Orange");
-
+        hashSet.add(null);
+        hashSet.add(null);
         // Adding a duplicate element (which will not be added)
         hashSet.add("Apple");
 

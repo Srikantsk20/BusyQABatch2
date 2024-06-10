@@ -28,8 +28,8 @@ class PersonWithPrimitive {
 public class WrapperClassExample3 {
     public static void main(String[] args) {
         // Using wrapper class
-    	//Integer ageWrapper = 30;
-        Integer ageWrapper = null;
+    	Integer ageWrapper = 30;
+        //Integer ageWrapper = null;
         Person person = new Person(ageWrapper);
         person.displayAge();
 

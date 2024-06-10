@@ -7,11 +7,11 @@ public class DogHybridInheritance implements AnimalHybridInheritance {
         System.out.println("Dog is eating...");
     }
 
-    // Implement the sleep() method from the Animal interface
-    //@Override
-    public void sleep() {
-        System.out.println("Dog is sleeping...");
-    }
+//    // Implement the sleep() method from the Animal interface
+//    //@Override
+//    public void sleep() {
+//        System.out.println("Dog is sleeping...");
+//    }
 	
 }
 
@@ -25,8 +25,8 @@ class CatHybridInheritance implements AnimalHybridInheritance {
 	 }
 	
 	 // Implement the sleep() method from the Animal interface
-	 @Override
-	 public void sleep() {
-	     System.out.println("Cat is sleeping...");
-	 }
+//	 @Override
+//	 public void sleep() {
+//	     System.out.println("Cat is sleeping...");
+//	 }
 }
