@@ -20,8 +20,8 @@ public class deleteSQL {
         String jdbcUrl = "jdbc:mysql://" + hostname + ":" + port + "/" + databaseName ;
 
         // SQL query to execute
-        String query1 = "Delete from payments where customerNumber = '268'"; // Change this to your table name
-        String query2 = "Select * from payments where customerNumber = '103'";
+        String query1 = "Delete from payments where customerNumber = '144'"; // Change this to your table name
+        String query2 = "Select * from payments where customerNumber = '141'";
         // Establishing the database connection
         try {
             Connection connection = DriverManager.getConnection(jdbcUrl, username, password);

@@ -6,4 +6,5 @@
  *
  */
 module Batch2_JavaIntro {
+	 requires java.sql;
 }

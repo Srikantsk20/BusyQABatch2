@@ -19,6 +19,8 @@ public class preparedStatement {
         
         // JDBC URL for MySQL database
         String jdbcUrl = "jdbc:mysql://" + hostname + ":" + port + "/" + databaseName ;
+        
+        //jdbc:mysql://localhost:3306/classicmodels
 
         // SQL query to execute
         String query = "SELECT * FROM orderdetails WHERE orderNumber = ? AND quantityOrdered > ?"; // Corrected query string
@@ -46,7 +48,8 @@ public class preparedStatement {
                 // Assuming the table has two columns named "column1" and "column2"
                 int column1Value = resultSet.getInt("orderNumber");
                 int column2Value = resultSet.getInt("quantityOrdered");
-                System.out.println("Column1: " + column1Value + ", Column2: " + column2Value);
+                int column3value = resultSet.getInt("priceEach");
+                System.out.println("Column1: " + column1Value + ", Column2: " + column2Value + "column 2 is: "+ column3value);
             }
               
             // Close the connection

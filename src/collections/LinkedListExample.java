@@ -15,7 +15,7 @@ public class LinkedListExample {
 
         // Add an element to the beginning of the LinkedList
         linkedList.addFirst("Grapes");
-
+      
         // Add an element to the end of the LinkedList
         linkedList.addLast("Pineapple");
 

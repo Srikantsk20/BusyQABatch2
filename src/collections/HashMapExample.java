@@ -8,7 +8,9 @@ public class HashMapExample {
 		        HashMap<String, Integer> map = new HashMap<>();
 
 		        // Adding elements to the HashMap
+		        
 		        map.put("John", 25);
+		        map.put("John", 26);
 		        map.put("Alice", 30);
 		        map.put("Bob", 28);
 		        
@@ -18,7 +20,7 @@ public class HashMapExample {
 		        
 		        map.put(null, 10); // Adding a null key
 		        map.put("Sri", null); // Adding a null value
-
+		        map.put("Kumar", null); // Adding a null value
 		        // Displaying the elements of the HashMap
 		        System.out.println("HashMap elements: " + map);
 

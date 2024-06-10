@@ -15,7 +15,7 @@ public class ArrayListIteratorExample {
 
         // Create an Iterator to traverse the ArrayList
         Iterator<String> iterator = list.iterator();
-
+        
         // Iterate over the elements using the Iterator
         System.out.println("Elements of the ArrayList:");
         while (iterator.hasNext()) {

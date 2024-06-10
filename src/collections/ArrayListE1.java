@@ -12,6 +12,7 @@ public class ArrayListE1 {
         stringList.add("Apple");
         stringList.add("Orange");
         stringList.add("Grapes");
+        stringList.add("Banana");
         
         System.out.println("Size of ArrayList: "+stringList.size());
        
