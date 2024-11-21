@@ -38,17 +38,17 @@ public class BreakExample {
 		
 		
 		
-		//int i = 1;
-		while (i <= 10) {
-			System.out.println("value of i "+ i);
-			
-			if (i == 5) {
-				System.out.println("VAlue of i is 5 and breaking the loop");
-				break;
-			}
-			
-			i++;
-		}
+//		//int i = 1;
+//		while (i <= 10) {
+//			System.out.println("value of i "+ i);
+//			
+//			if (i == 5) {
+//				System.out.println("VAlue of i is 5 and breaking the loop");
+//				break;
+//			}
+//			
+//			i++;
+//		}
 	}
 
 }

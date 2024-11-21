@@ -5,9 +5,10 @@ public class ScannerInput {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	
 //	System.out.println("Enter a number:");
 //	Scanner scanner = new Scanner(System.in);
-//	int number = scanner.nextInt();
+//	int number = scanner.nextInt(); //number = 5
 //	System.out.println("Number entered is: "+ number);
 //	scanner.close();	
 	
@@ -17,14 +18,14 @@ public class ScannerInput {
 //	System.out.println("Number entered is: "+ number);
 //	scanner.close();
 		
-		System.out.println("Enter a Float:");
-		Scanner scanner = new Scanner(System.in);
-		float number1 = scanner.nextFloat();
-		scanner.nextLine(); // Consume the newline character
-		System.out.println("Enter a String:");
-		String strVariable1 = scanner.next();
-		System.out.println("String entered is: " + strVariable1);
-		scanner.close();
+//		System.out.println("Enter a Float:");
+//		Scanner scanner = new Scanner(System.in);
+//		float number1 = scanner.nextFloat();
+//		scanner.nextLine(); // Consume the newline character
+//		System.out.println("Enter a String:");
+//		String strVariable1 = scanner.next();
+//		System.out.println("String entered is: " + strVariable1);
+//		scanner.close();
 	
 		
 	
